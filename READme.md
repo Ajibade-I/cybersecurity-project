@@ -49,7 +49,7 @@ Copy code
   "userName": "JohnDoe",
   "password": "securepassword123",
   "email": "john.doe@example.com",
-  "platform": "web"
+  "platform": "instagram"
 }
 Response on Success:
 
