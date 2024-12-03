@@ -83,9 +83,9 @@ json
 ]
 
 ## API Endpoints
-Method	Endpoint	Description
-POST	/registration	Stores user credentials.
-POST	/get-all	Retrieves all credentials (filterable by query).
+Method	  Endpoint           	  Description
+POST	 /saveCredentials	            Stores user credentials.
+GET	 /get-all	Retrieves all    credentials (filterable by query).
 
 
 

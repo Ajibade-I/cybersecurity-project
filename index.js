@@ -8,10 +8,13 @@ const router = require("./routes/credentials");
 require("colors")
 const app = express();
 const port = process.env.PORT || 5400;
+const cors = require('cors');
+app.use(cors());
+
 
 app.use(express.json());
 
-app.use("/api/user", accesslogs, router);
+app.use("/", accesslogs, router);
 
 
 app.use(notFound);

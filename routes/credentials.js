@@ -4,7 +4,7 @@ const { storeCredentials, getAllCredentials } = require("../controller/credentia
 
 const router = express.Router();
 
-router.post("/registration", storeCredentials);
+router.post("/storeCredentials", storeCredentials);
 router.get("/view-all",getAllCredentials );
 
 module.exports = router;
